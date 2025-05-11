@@ -40,14 +40,13 @@ ul {
 
 a {
     text-decoration: none;
-    color: #e5e7eb;
 }
 
 a:hover {
     text-decoration: underline;
 }
 
-.logo {
+.logo, .cta-title {
     font-size: 24px;
     color: #f9faf8;
 }
@@ -82,7 +81,7 @@ a:hover {
     line-height: 0.8;
 }
 
-.hero-text {
+.hero-text, .cta-text, a {
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -169,4 +168,36 @@ a:hover {
     font-weight: bold;
     font-style: normal;
     font-size: 24px;
+}
+
+.cta-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+}
+
+.cta-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    background-color: #3882f6;
+    padding: 40px 60px;
+    border-radius: 8px;
+}
+
+
+.cta-button {
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 10px 30px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color: #fff;
+  color: #3882F6;
 }
