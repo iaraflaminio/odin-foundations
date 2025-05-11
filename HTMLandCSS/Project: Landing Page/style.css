@@ -110,12 +110,13 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 42px 0;
 }
 
 .information-title {
-  font-size: 36px;
-  font-weight: 900;
-  margin: 32px 0;
+    font-size: 36px;
+    font-weight: 900;
+    margin: 32px 0;
 }
 
 .info-container {
@@ -127,12 +128,12 @@ a:hover {
 }
 
 .placeholder {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  max-width: 150px; 
-  gap: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 150px;
+    gap: 8px;
 }
 
 .square {
@@ -145,4 +146,27 @@ a:hover {
 .info-text {
     font-size: 16px;
     color: #1f2937;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 100;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.author {
+    text-align: right;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 24px;
 }
